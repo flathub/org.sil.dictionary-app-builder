@@ -31,8 +31,8 @@ modules:
     sources:
       - type: git
         url: https://github.com/ThomasDickey/xterm-snapshots.git
-        tag: xterm-395
-        commit: 5b7a08a3482b425c97610190228e58b51ac6c39b
+        tag: xterm-397
+        commit: 4bb132c0c7113c06124b10051465dab9b18388fd
         x-checker-data:
           type: anitya
           project-id: 5272
