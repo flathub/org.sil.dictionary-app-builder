@@ -118,5 +118,5 @@ modules:
       - type: file
         only-arches:
           - x86_64
-        url: https://sil-app-builders-linux-artifacts.s3.amazonaws.com/master/85/dictionary-app-builder.tgz
-        sha256: f05e5b44340c503f412b604ae472c94f312a1a3402f555fcd9a3ee2ddd296aeb
+        url: https://sil-app-builders-linux-artifacts.s3.amazonaws.com/refs/tags/v13.1/86/dictionary-app-builder.tgz
+        sha256: a16313783a62971a0094c2692a571709517ffab840c762ca9fee25bb6bd17df3
