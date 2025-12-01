@@ -1,10 +1,10 @@
 app-id: org.sil.dictionary-app-builder
 runtime: org.freedesktop.Platform
-runtime-version: '23.08'
+runtime-version: '25.08'
 sdk: org.freedesktop.Sdk
 sdk-extensions:
   - org.freedesktop.Sdk.Extension.openjdk17
-  - org.freedesktop.Sdk.Extension.node20
+  - org.freedesktop.Sdk.Extension.node22
 finish-args:
   # Window x11 socket access
   - --socket=x11
@@ -101,7 +101,7 @@ modules:
         -t /app/share/metainfo/
       - install -Dm755 dab-run.sh /app/bin/dab-run.sh
       # Node
-      - /usr/lib/sdk/node20/install-sdk.sh
+      - /usr/lib/sdk/node22/install-sdk.sh
       - ln -s /app/node /app/dictionary-app-builder/tools/node
     cleanup:
       - /dictionary-app-builder/app-icons
