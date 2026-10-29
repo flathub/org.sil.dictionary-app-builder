@@ -31,8 +31,8 @@ modules:
     sources:
       - type: git
         url: https://github.com/ThomasDickey/xterm-snapshots.git
-        tag: xterm-410
-        commit: 6380a3eaed857c182ea6cfa78cd706966b2628d0
+        tag: xterm-412
+        commit: 5c75ead9a75d4b2e666ca06fa94503b5766ed93f
         x-checker-data:
           type: anitya
           project-id: 5272
@@ -81,7 +81,8 @@ modules:
         only-arches:
           - x86_64
         dest-filename: openjfx.zip
-        url: https://download2.gluonhq.com/openjfx/17.0.11/openjfx-17.0.11_linux-x64_bin-sdk.zip
+        url: 
+          https://download2.gluonhq.com/openjfx/17.0.11/openjfx-17.0.11_linux-x64_bin-sdk.zip
         sha256: f46a1fbea32b83cca6715d74cba7d9c24ce320f1da2daf8ff852f133e9f15674
 
   - name: dictionary-app-builder
@@ -118,7 +119,8 @@ modules:
       - type: file
         only-arches:
           - x86_64
-        url: https://sil-app-builders-linux-artifacts.s3.amazonaws.com/master/160/dictionary-app-builder.tgz
+        url: 
+          https://sil-app-builders-linux-artifacts.s3.amazonaws.com/master/160/dictionary-app-builder.tgz
         sha256: e5eac8b0433c36443cddcaf5549b2690f077b43dba8d971cec3ebca11209e913
         x-checker-data:
           type: json
